@@ -1,0 +1,40 @@
+@import "../base/color.scss";
+@import "../components/button.scss";
+
+header{
+    div{
+
+        ul{
+            li{
+                a{
+                color: $secondary;
+                text-decoration: none; 
+                font-size: larger;
+                }
+
+                a:focus,a:hover, a:active{
+                    color: $fifth;
+                    text-decoration: underline $fifth;
+                    font-weight: 600;
+                    font-size: 30px;
+                }
+            }
+        }
+
+        a img{
+            border-radius: 50%;
+            background-position-y: -150px;
+        }
+
+        div .booking{
+            width: 130;
+            height: 50px;
+        }
+
+        div .connexion{
+            width: 110px;
+            height: 40px;
+        }
+
+    }
+}

@@ -1,0 +1,27 @@
+@import "../base/color.scss";
+
+.button{
+    background-color: $fourth;
+    border: 2px solid $third;
+    border-radius: 15px;
+    color: $third;
+}
+
+.button:hover{
+    background-color: $third;
+    border-color: $fourth;
+    color: $fourth;
+}
+
+.buttonBis{
+    background-color: $third;
+    border: 2px solid $fourth;
+    border-radius: 30px;
+    color: $fourth;
+}
+
+.buttonBis:hover{
+    background-color: $fourth;
+    border: 2px solid $third;
+    color: $third;
+}
